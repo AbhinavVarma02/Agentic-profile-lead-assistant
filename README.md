@@ -1,9 +1,3 @@
----
-title: Agentic Profile & Lead Assistant
-app_file: app.py
-sdk: gradio
-sdk_version: 5.49.1
----
 # Agentic Profile & Lead Assistant
 
 An agentic professional profile assistant built with Python + Gradio, using OpenAI tool-calling and a local SQLite Q&A store to retrieve curated profile answers and improve response consistency across sessions. Includes an evaluator-optimizer quality loop, runtime logging, and Pushover notifications for new leads and unanswered questions.
